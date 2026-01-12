@@ -3,8 +3,9 @@ import java.util.*;
 
 
 class LongestSubString{
-//Need improvment
+//    Need improvment
 //    Current time: 108ms
+//
 //    public int lengthOfLongestSubstring(String s) {
 //        public int lengthOfLongestSubstring (String s){
 //            int maxLength = 0;
@@ -47,5 +48,4 @@ class LongestSubString{
                 right++;
 
             }
-            r
 }
