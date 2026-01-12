@@ -3,7 +3,7 @@ import java.util.*;
 
 
 class MedianOfTwoSortedArrays{
-    // TODO: FIND BETTER SOLUTION USING BINARY SEARCH
+// TODO: FIND BETTER SOLUTION USING BINARY SEARCH
 //    2ms - MergeSort
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     int l1 = nums1.length;
@@ -31,5 +31,5 @@ class MedianOfTwoSortedArrays{
 
     if(totalLength %2 != 0) return arr[totalLength/2];
     else return ( arr[totalLength/2] + arr[(totalLength-1)/2] )/2.0;
-}
+    }
 }
