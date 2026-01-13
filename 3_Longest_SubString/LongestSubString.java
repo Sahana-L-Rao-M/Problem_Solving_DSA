@@ -28,7 +28,7 @@ class LongestSubString{
 //            return maxLength;
 //        }
 //    }
-    // 2ms to solve
+//      2ms to solve
         public int lengthOfLongestSubstring(String s) {
             int left = 0;
             int right = 0;
